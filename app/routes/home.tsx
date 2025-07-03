@@ -1,5 +1,9 @@
+import AboutMe from "~/components/about";
 import type { Route } from "./+types/home";
-import { Welcome } from "../welcome/welcome";
+import Hero from "~/components/hero";
+import SkillsSection from "~/components/skill";
+import ProjectsSection from "~/components/project";
+import Footer from "~/components/footer";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -9,5 +13,13 @@ export function meta({}: Route.MetaArgs) {
 }
 
 export default function Home() {
-  return <Welcome />;
+  return (
+    <div>
+      <Hero />
+      <AboutMe />
+      <SkillsSection />
+      <ProjectsSection />
+      <Footer />
+    </div>
+  );
 }
