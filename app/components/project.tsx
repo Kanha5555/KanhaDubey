@@ -6,7 +6,7 @@ const projects = [
     title: "E-commerce Platform",
     description: "Modern shopping experience with React and Ruby on Rails",
     tags: ["React", "Ruby on Rails", "PostgreSQL"],
-    image: "public/flexcar.png",
+    image: "/flexcar.png",
     url: "https://flexcar.com",
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     description:
       "Website for managing projects, processes, and decisions - all in one place.",
     tags: ["React", "Ruby on Rails", "UI/UX", "PostgreSQL"],
-    image: "public/fredbase.png",
+    image: "/fredbase.png",
     url: "https://fredbase.com",
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     title: "Corporate Website",
     description: "Professional business website with responsive design",
     tags: ["Next.js", "Tailwind", "Node.js"],
-    image: "/public/website.png",
+    image: "/website.png",
     url: "https://beaconresearch.com",
   },
 ];
