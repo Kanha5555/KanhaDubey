@@ -15,7 +15,7 @@ const AboutMe: React.FC = () => {
           <div className="lg:w-1/2 text-left">
             <h3 className="text-xl font-semibold mb-4">My Journey</h3>
             <p className="text-gray-700 mb-4">
-              With over 5 years of experience in design and development, I've
+              With over 8 years of experience in design and development, I've
               had the privilege of working with startups and established
               companies to bring their visions to life.
             </p>
@@ -31,7 +31,7 @@ const AboutMe: React.FC = () => {
                 <p className="text-gray-600">Projects</p>
               </div>
               <div>
-                <span className="text-2xl font-bold text-indigo-600">5+</span>
+                <span className="text-2xl font-bold text-indigo-600">8+</span>
                 <p className="text-gray-600">Years</p>
               </div>
               <div>

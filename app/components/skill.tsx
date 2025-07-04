@@ -47,13 +47,13 @@ const SkillsSection: React.FC = () => {
             </div>
             <ul className="space-y-3">
               <li className="flex justify-between items-center">
-                Node.js
+                Ruby on Rails
                 <span className="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded-full">
-                  Intermediate
+                  Expert
                 </span>
               </li>
               <li className="flex justify-between items-center">
-                MongoDB
+                Node.js
                 <span className="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded-full">
                   Intermediate
                 </span>
@@ -79,19 +79,19 @@ const SkillsSection: React.FC = () => {
               <li className="flex justify-between items-center">
                 AWS / Cloud Platforms
                 <span className="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded-full">
-                  Beginner
+                  Intermediate
                 </span>
               </li>
               <li className="flex justify-between items-center">
                 Git / GitHub
                 <span className="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded-full">
-                  Advanced
+                  Expert
                 </span>
               </li>
               <li className="flex justify-between items-center">
                 Agile / Scrum
                 <span className="bg-indigo-100 text-indigo-700 text-xs px-2 py-1 rounded-full">
-                  Intermediate
+                  Advanced
                 </span>
               </li>
             </ul>

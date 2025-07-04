@@ -4,23 +4,27 @@ const projects = [
   {
     id: 1,
     title: "E-commerce Platform",
-    description: "Modern shopping experience with React and Node.js",
-    tags: ["React", "Node.js", "MongoDB"],
-    image: "/images/ecommerce.png", // Replace with your image path
+    description: "Modern shopping experience with React and Ruby on Rails",
+    tags: ["React", "Ruby on Rails", "PostgreSQL"],
+    image: "public/flexcar.png",
+    url: "https://flexcar.com",
   },
   {
     id: 2,
-    title: "Fitness Tracker App",
-    description: "Mobile app for tracking workouts and progress",
-    tags: ["React Native", "Firebase", "UI/UX"],
-    image: "/images/fitness-tracker.png", // Replace with your image path
+    title: "Decision Making Tool",
+    description:
+      "Website for managing projects, processes, and decisions - all in one place.",
+    tags: ["React", "Ruby on Rails", "UI/UX", "PostgreSQL"],
+    image: "public/fredbase.png",
+    url: "https://fredbase.com",
   },
   {
     id: 3,
     title: "Corporate Website",
-    description: "Professional business website with CMS integration",
-    tags: ["Next.js", "Tailwind", "CMS"],
-    image: "/images/corporate-website.png", // Replace with your image path
+    description: "Professional business website with responsive design",
+    tags: ["Next.js", "Tailwind", "Node.js"],
+    image: "/public/website.png",
+    url: "https://beaconresearch.com",
   },
 ];
 
@@ -43,7 +47,7 @@ const ProjectsSection: React.FC = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="rounded-lg mb-4 object-cover"
+                className="rounded-lg mb-4 object-cover h-48 w-full"
               />
               <h3 className="font-semibold text-lg mb-2">{project.title}</h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
@@ -57,7 +61,7 @@ const ProjectsSection: React.FC = () => {
                   </span>
                 ))}
               </div>
-              <a href="#" className="text-indigo-600 text-sm font-medium">
+              <a href={project.url} className="text-indigo-600 hover:underline">
                 View Details
               </a>
               <div className="mt-auto flex space-x-3 pt-4 text-gray-400">

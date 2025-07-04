@@ -24,7 +24,7 @@ const Header: React.FC = () => {
     setMobileOpen(!mobileOpen);
   };
 
-  const navLinks = ["Home", "Projects", "About", "Contact"];
+  const navLinks = ["Home", "Projects", "Skill", "About"];
 
   const drawer = (
     <Box sx={{ width: 250 }} role="presentation" onClick={handleDrawerToggle}>
